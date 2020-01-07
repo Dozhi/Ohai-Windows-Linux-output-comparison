@@ -149,7 +149,7 @@
     "machine": "x86_64",
     "processor": "x86_64",
     "os": "GNU/Linux",
-    ["modules"](#*kernel-> modules*): { ...
+    "[modules](kernel-modules)": { ...
     }
   }
   
@@ -199,7 +199,7 @@
 ## Shorted sections
 
 ## Ubuntu
-*kernel-> modules*
+### Kernel modules
 hello
 
 
