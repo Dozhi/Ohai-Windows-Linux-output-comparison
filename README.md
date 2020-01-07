@@ -1,7 +1,7 @@
 # Ohai WinServer2016 vs Ubuntu18.04
 
 ----------------------------------------------------------------------------------------------------------------------------------------
-## Ubuntu 18.04                                                         Windows Server 2016
+## Ubuntu 18.04                                                        
 <pre>
 {                                                                        
   "virtualization": { ...                                                   
@@ -74,3 +74,64 @@
 
 </pre>
 ----------------------------------------------------------------------------------------------------------------------------------------
+
+## Windows Server 2016
+
+<pre>
+{
+  "kernel": { ...
+  },
+  "memory": { ...
+  },
+  "network": { ...
+  },
+  "counters": { ...
+  },
+  "ipaddress": "10.0.2.15",
+  "macaddress": "08:00:27:5C:29:1E",
+  "ip6address": "fe80::9b0:3012:24e7:7067",
+  "os": "windows",
+  "os_version": "10.0.14393",
+  "platform": "windows",
+  "platform_version": "10.0.14393",
+  "platform_family": "windows",
+  "uptime_seconds": 1280,
+  "uptime": "21 minutes 20 seconds",
+  "dmi": {
+
+  },
+  "virtualization": { ...
+  },
+  "languages": { ...
+  },
+  "chef_packages": { ...
+  },
+  "cloud": null,
+  "command": {
+
+  },
+  "cpu": { ...
+  },
+  "filesystem": { ...
+  },
+  "hostname": "vagrant-2016",
+  "machinename": "VAGRANT-2016",
+  "fqdn": "vagrant-2016.cloudeon.com",
+  "domain": "cloudeon.com",
+  "keys": { ...
+  },
+  "fips": { ...
+  },
+  "ohai_time": 1578409894.56682,
+  "packages": { ...
+  },
+  "root_group": "Administrators",
+  "shard_seed": 72579257,
+  "time": { ...
+  },
+  "virtualbox": { ...
+  },
+  "system_enclosure": { ...
+  }
+}
+</pre>
