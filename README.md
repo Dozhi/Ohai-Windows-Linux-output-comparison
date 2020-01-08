@@ -177,13 +177,13 @@
  
  </pre>
 
-
 # Memory
 
-<pre>
+
 
 ## Ubuntu 
-  "memory": {
+<pre>
+"memory": {
     "swap": {
       "cached": "0kB",
       "total": "1003516kB",
@@ -218,10 +218,10 @@
     "vmalloc_chunk": "0kB",
     "hugepage_size": "2048kB"
   },
-  
+  </pre>
   
 ## Windows 
-
+<pre>
 "memory": {
     "swap": {
       "total": "1179648kB",
@@ -231,7 +231,7 @@
     "free": "980948kB"
   },
 </pre>
-
+</pre>
 
 
 
