@@ -160,8 +160,67 @@
  ## Windows
  
  <pre>
-   "kernel": {
-    "os_info": { ...
+  "kernel": {
+    "os_info": {
+      "boot_device": "\\Device\\HarddiskVolume1",
+      "build_number": "14393",
+      "build_type": "Multiprocessor Free",
+      "caption": "Microsoft Windows Server 2016 Standard Evaluation",
+      "code_set": "1252",
+      "country_code": "1",
+      "csd_version": null,
+      "cs_name": "VAGRANT-2016",
+      "current_time_zone": 0,
+      "data_execution_prevention_32_bit_applications": true,
+      "data_execution_prevention_available": true,
+      "data_execution_prevention_drivers": true,
+      "data_execution_prevention_support_policy": 3,
+      "debug": false,
+      "description": "",
+      "distributed": false,
+      "encryption_level": 256,
+      "foreground_application_boost": 2,
+      "install_date": "20191219103424.000000+000",
+      "large_system_cache": null,
+      "last_boot_up_time": "20200107145010.499557+000",
+      "local_date_time": "20200107151130.322000+000",
+      "locale": "0409",
+      "manufacturer": "Microsoft Corporation",
+      "max_number_of_processes": -1,
+      "max_process_memory_size": "137438953344",
+      "mui_languages": [
+        "en-US"
+      ],
+      "name": "Microsoft Windows Server 2016 Standard Evaluation|C:\\Windows|\\Device\\Harddisk0\\Partition2",
+      "number_of_licensed_users": 0,
+      "number_of_processes": 51,
+      "number_of_users": 1,
+      "operating_system_sku": 79,
+      "organization": "Hashicorp",
+      "os_architecture": "64-bit",
+      "os_language": 1033,
+      "os_product_suite": 272,
+      "os_type": 18,
+      "other_type_description": null,
+      "pae_enabled": null,
+      "plus_product_id": null,
+      "plus_version_number": null,
+      "portable_operating_system": false,
+      "primary": true,
+      "product_type": 3,
+      "registered_user": "",
+      "serial_number": "00378-00000-00000-AA739",
+      "service_pack_major_version": 0,
+      "service_pack_minor_version": 0,
+      "size_stored_in_paging_files": "1179648",
+      "status": "OK",
+      "suite_mask": 272,
+      "system_device": "\\Device\\HarddiskVolume2",
+      "system_directory": "C:\\Windows\\system32",
+      "system_drive": "C:",
+      "total_visible_memory_size": "2096692",
+      "version": "10.0.14393",
+      "windows_directory": "C:\\Windows"
     },
     "name": "Microsoft Windows Server 2016 Standard Evaluation",
     "release": "10.0.14393",
@@ -169,7 +228,77 @@
     "os": "WINNT",
     "product_type": "Server",
     "server_core": false,
-    "cs_info": { ... 
+    "cs_info": {
+      "admin_password_status": 3,
+      "automatic_managed_pagefile": true,
+      "automatic_reset_boot_option": true,
+      "automatic_reset_capability": true,
+      "boot_option_on_limit": null,
+      "boot_option_on_watch_dog": null,
+      "boot_rom_supported": true,
+      "boot_status": null,
+      "bootup_state": "Normal boot",
+      "caption": "VAGRANT-2016",
+      "chassis_bootup_state": 3,
+      "chassis_sku_number": null,
+      "current_time_zone": 0,
+      "daylight_in_effect": null,
+      "description": "AT/AT COMPATIBLE",
+      "dns_host_name": "vagrant-2016",
+      "domain": "WORKGROUP",
+      "domain_role": 2,
+      "enable_daylight_savings_time": true,
+      "front_panel_reset_status": 3,
+      "hypervisor_present": true,
+      "infrared_supported": false,
+      "initial_load_info": null,
+      "install_date": null,
+      "keyboard_password_status": 3,
+      "last_load_info": null,
+      "manufacturer": "innotek GmbH",
+      "model": "VirtualBox",
+      "name": "VAGRANT-2016",
+      "name_format": null,
+      "network_server_mode_enabled": true,
+      "number_of_logical_processors": 1,
+      "number_of_processors": 1,
+      "oem_string_array": [
+        "vboxVer_6.0.14",
+        "vboxRev_133895"
+      ],
+      "part_of_domain": false,
+      "pause_after_reset": "-1",
+      "pc_system_type": 2,
+      "pc_system_type_ex": 2,
+      "power_management_capabilities": null,
+      "power_management_supported": null,
+      "power_on_password_status": 3,
+      "power_state": 0,
+      "power_supply_state": 3,
+      "primary_owner_contact": null,
+      "primary_owner_name": "",
+      "reset_capability": 1,
+      "reset_count": -1,
+      "reset_limit": -1,
+      "roles": [
+        "LM_Workstation",
+        "LM_Server",
+        "NT",
+        "Server_NT"
+      ],
+      "status": "OK",
+      "support_contact_description": null,
+      "system_family": "Virtual Machine",
+      "system_sku_number": null,
+      "system_startup_delay": null,
+      "system_startup_options": null,
+      "system_startup_setting": null,
+      "system_type": "x64-based PC",
+      "thermal_state": 3,
+      "total_physical_memory": "2147012608",
+      "user_name": "VAGRANT-2016\\vagrant",
+      "wake_up_type": 6,
+      "workgroup": "WORKGROUP"
     },
     "machine": "x86_64",
     "system_type": "Mobile"
@@ -905,11 +1034,4 @@
 </pre>
 
 ----------------------------------------------------------------------------------------------------------------------------------------
-
-
-## Shorted sections
-
-### Ubuntu
-#### modulez
-sdaasd
-### Windows
+.
