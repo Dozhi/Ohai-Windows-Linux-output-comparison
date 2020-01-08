@@ -341,17 +341,7 @@
     "cores": 1,
     "real": 1
   },
-  "filesystem": {
-    "C:": {
-      "kb_size": 62545457,
-      "kb_available": 42937565,
-      "kb_used": 19607892,
-      "percent_used": 31,
-      "mount": "C:",
-      "fs_type": "ntfs",
-      "volume_name": "windows 2016"
-    }
-  },
+
 </pre>
 
 
