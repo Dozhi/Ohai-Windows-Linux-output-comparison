@@ -149,7 +149,7 @@
     "machine": "x86_64",
     "processor": "x86_64",
     "os": "GNU/Linux",
-    "[modules](kernel-modules)": { ...
+    "[modules](#ubuntumodules)": { ...
     }
   }
   
@@ -188,7 +188,7 @@
 
 
 
-
+## <a name="head1">Heading One</a>
 
 
 
@@ -199,7 +199,7 @@
 ## Shorted sections
 
 ## Ubuntu
-### Kernel modules
+### <a name="ubuntumodules">Ubuntu Kernel Modules</a>
 hello
 
 
