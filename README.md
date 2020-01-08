@@ -149,10 +149,10 @@
     "machine": "x86_64",
     "processor": "x86_64",
     "os": "GNU/Linux",
-    "modules": { [sometext](#ukm)
+    "modules": {  ...
     }
   }
-  [sometext](#head1)
+
  </pre>
  
  ## Windows
@@ -189,10 +189,3 @@
 
 ### Shorted sections
 
-#### Ubuntu
-#### <a name="ukm">Ubuntu Kernel Modules</a>
-hello
-
-
-#### Windows 
-#### <a name="head1">Heading One</a>
