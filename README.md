@@ -149,11 +149,13 @@
     "machine": "x86_64",
     "processor": "x86_64",
     "os": "GNU/Linux",
-    "modules": {  ...
+    "modules": {  ... 
     }
   }
 
  </pre>
+ 
+ 
  
  ## Windows
  
@@ -167,7 +169,7 @@
     "os": "WINNT",
     "product_type": "Server",
     "server_core": false,
-    "cs_info": { ...
+    "cs_info": { ... 
     },
     "machine": "x86_64",
     "system_type": "Mobile"
@@ -176,6 +178,59 @@
  </pre>
 
 
+# Memory
+
+<pre>
+
+## Ubuntu 
+  "memory": {
+    "swap": {
+      "cached": "0kB",
+      "total": "1003516kB",
+      "free": "1003516kB"
+    },
+    "hugepages": {
+      "total": "0",
+      "free": "0",
+      "reserved": "0",
+      "surplus": "0"
+    },
+    "total": "1009112kB",
+    "free": "333184kB",
+    "buffers": "25080kB",
+    "cached": "527504kB",
+    "active": "451944kB",
+    "inactive": "142436kB",
+    "dirty": "112kB",
+    "writeback": "0kB",
+    "anon_pages": "41784kB",
+    "mapped": "40440kB",
+    "slab": "58648kB",
+    "slab_reclaimable": "36564kB",
+    "slab_unreclaim": "22084kB",
+    "page_tables": "3456kB",
+    "nfs_unstable": "0kB",
+    "bounce": "0kB",
+    "commit_limit": "1508072kB",
+    "committed_as": "236960kB",
+    "vmalloc_total": "34359738367kB",
+    "vmalloc_used": "0kB",
+    "vmalloc_chunk": "0kB",
+    "hugepage_size": "2048kB"
+  },
+  
+  
+## Windows 
+
+"memory": {
+    "swap": {
+      "total": "1179648kB",
+      "free": "1027656kB"
+    },
+    "total": "2096692kB",
+    "free": "980948kB"
+  },
+</pre>
 
 
 
@@ -187,5 +242,9 @@
 
 
 
-### Shorted sections
+## Shorted sections
 
+### Ubuntu
+#### modulez
+sdaasd
+### Windows
