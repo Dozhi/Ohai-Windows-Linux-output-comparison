@@ -231,8 +231,128 @@
     "free": "980948kB"
   },
 </pre>
+
+
+# CPU
+
+
+## Ubuntu
+<pre>
+"cpu": {
+    "0": {
+      "vendor_id": "GenuineIntel",
+      "family": "6",
+      "model": "142",
+      "model_name": "Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz",
+      "stepping": "10",
+      "mhz": "2112.000",
+      "cache_size": "8192 KB",
+      "physical_id": "0",
+      "core_id": "0",
+      "cores": "1",
+      "flags": [
+        "fpu",
+        "vme",
+        "de",
+        "pse",
+        "tsc",
+        "msr",
+        "pae",
+        "mce",
+        "cx8",
+        "apic",
+        "sep",
+        "mtrr",
+        "pge",
+        "mca",
+        "cmov",
+        "pat",
+        "pse36",
+        "clflush",
+        "mmx",
+        "fxsr",
+        "sse",
+        "sse2",
+        "ht",
+        "syscall",
+        "nx",
+        "rdtscp",
+        "lm",
+        "constant_tsc",
+        "rep_good",
+        "nopl",
+        "xtopology",
+        "nonstop_tsc",
+        "cpuid",
+        "tsc_known_freq",
+        "pni",
+        "pclmulqdq",
+        "monitor",
+        "ssse3",
+        "cx16",
+        "pcid",
+        "sse4_1",
+        "sse4_2",
+        "x2apic",
+        "movbe",
+        "popcnt",
+        "aes",
+        "xsave",
+        "avx",
+        "rdrand",
+        "hypervisor",
+        "lahf_lm",
+        "abm",
+        "3dnowprefetch",
+        "invpcid_single",
+        "pti",
+        "fsgsbase",
+        "avx2",
+        "invpcid",
+        "rdseed",
+        "clflushopt",
+        "md_clear",
+        "flush_l1d"
+      ]
+    },
+    "total": 1,
+    "real": 1,
+    "cores": 1
+  },
 </pre>
 
+
+## Windows 
+<pre>
+"cpu": {
+    "0": {
+      "cores": 1,
+      "vendor_id": "GenuineIntel",
+      "family": "2",
+      "model": "",
+      "stepping": "10",
+      "physical_id": "CPU0",
+      "model_name": "Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz",
+      "description": "Intel64 Family 6 Model 142 Stepping 10",
+      "mhz": "2112",
+      "cache_size": " KB"
+    },
+    "total": 1,
+    "cores": 1,
+    "real": 1
+  },
+  "filesystem": {
+    "C:": {
+      "kb_size": 62545457,
+      "kb_available": 42937565,
+      "kb_used": 19607892,
+      "percent_used": 31,
+      "mount": "C:",
+      "fs_type": "ntfs",
+      "volume_name": "windows 2016"
+    }
+  },
+</pre>
 
 
 
