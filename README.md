@@ -641,6 +641,264 @@
 
 
 
+# Filesystem
+
+## ubuntu  
+
+<pre>
+ "filesystem": {
+    "udev": {
+      "kb_size": "473252",
+      "kb_used": "0",
+      "kb_available": "473252",
+      "percent_used": "0%",
+      "mount": "/dev",
+      "total_inodes": "118313",
+      "inodes_used": "403",
+      "inodes_available": "117910",
+      "inodes_percent_used": "1%",
+      "fs_type": "devtmpfs",
+      "mount_options": [
+        "rw",
+        "nosuid",
+        "relatime",
+        "size=473252k",
+        "nr_inodes=118313",
+        "mode=755"
+      ]
+    },
+    "tmpfs": {
+      "kb_size": "100908",
+      "kb_used": "0",
+      "kb_available": "100908",
+      "percent_used": "0%",
+      "mount": "/run/user/1000",
+      "total_inodes": "126139",
+      "inodes_used": "10",
+      "inodes_available": "126129",
+      "inodes_percent_used": "1%",
+      "fs_type": "tmpfs",
+      "mount_options": [
+        "rw",
+        "nosuid",
+        "nodev",
+        "relatime",
+        "size=100908k",
+        "mode=700",
+        "uid=1000",
+        "gid=1000"
+      ]
+    },
+    "/dev/mapper/vagrant--vg-root": {
+      "kb_size": "64800356",
+      "kb_used": "1681016",
+      "kb_available": "59797896",
+      "percent_used": "3%",
+      "mount": "/",
+      "total_inodes": "4136960",
+      "inodes_used": "47544",
+      "inodes_available": "4089416",
+      "inodes_percent_used": "2%",
+      "fs_type": "ext4",
+      "mount_options": [
+        "rw",
+        "relatime",
+        "errors=remount-ro",
+        "data=ordered"
+      ],
+      "uuid": "2380b918-859a-4c05-94dd-112699668ce6"
+    },
+    "vagrant": {
+      "kb_size": "497814524",
+      "kb_used": "158899068",
+      "kb_available": "338915456",
+      "percent_used": "32%",
+      "mount": "/vagrant"
+    },
+    "sysfs": {
+      "mount": "/sys",
+      "fs_type": "sysfs",
+      "mount_options": [
+        "rw",
+        "nosuid",
+        "nodev",
+        "noexec",
+        "relatime"
+      ]
+    },
+    "proc": {
+      "mount": "/proc",
+      "fs_type": "proc",
+      "mount_options": [
+        "rw",
+        "nosuid",
+        "nodev",
+        "noexec",
+        "relatime"
+      ]
+    },
+    "devpts": {
+      "mount": "/dev/pts",
+      "fs_type": "devpts",
+      "mount_options": [
+        "rw",
+        "nosuid",
+        "noexec",
+        "relatime",
+        "gid=5",
+        "mode=620",
+        "ptmxmode=000"
+      ]
+    },
+    "securityfs": {
+      "mount": "/sys/kernel/security",
+      "fs_type": "securityfs",
+      "mount_options": [
+        "rw",
+        "nosuid",
+        "nodev",
+        "noexec",
+        "relatime"
+      ]
+    },
+    "cgroup": {
+      "mount": "/sys/fs/cgroup/pids",
+      "fs_type": "cgroup",
+      "mount_options": [
+        "rw",
+        "nosuid",
+        "nodev",
+        "noexec",
+        "relatime",
+        "pids"
+      ]
+    },
+    "pstore": {
+      "mount": "/sys/fs/pstore",
+      "fs_type": "pstore",
+      "mount_options": [
+        "rw",
+        "nosuid",
+        "nodev",
+        "noexec",
+        "relatime"
+      ]
+    },
+    "systemd-1": {
+      "mount": "/proc/sys/fs/binfmt_misc",
+      "fs_type": "autofs",
+      "mount_options": [
+        "rw",
+        "relatime",
+        "fd=37",
+        "pgrp=1",
+        "timeout=0",
+        "minproto=5",
+        "maxproto=5",
+        "direct",
+        "pipe_ino=13623"
+      ]
+    },
+    "mqueue": {
+      "mount": "/dev/mqueue",
+      "fs_type": "mqueue",
+      "mount_options": [
+        "rw",
+        "relatime"
+      ]
+    },
+    "debugfs": {
+      "mount": "/sys/kernel/debug",
+      "fs_type": "debugfs",
+      "mount_options": [
+        "rw",
+        "relatime"
+      ]
+    },
+    "hugetlbfs": {
+      "mount": "/dev/hugepages",
+      "fs_type": "hugetlbfs",
+      "mount_options": [
+        "rw",
+        "relatime",
+        "pagesize=2M"
+      ]
+    },
+    "fusectl": {
+      "mount": "/sys/fs/fuse/connections",
+      "fs_type": "fusectl",
+      "mount_options": [
+        "rw",
+        "relatime"
+      ]
+    },
+    "configfs": {
+      "mount": "/sys/kernel/config",
+      "fs_type": "configfs",
+      "mount_options": [
+        "rw",
+        "relatime"
+      ]
+    },
+    "sunrpc": {
+      "mount": "/run/rpc_pipefs",
+      "fs_type": "rpc_pipefs",
+      "mount_options": [
+        "rw",
+        "relatime"
+      ]
+    },
+    "lxcfs": {
+      "mount": "/var/lib/lxcfs",
+      "fs_type": "fuse.lxcfs",
+      "mount_options": [
+        "rw",
+        "nosuid",
+        "nodev",
+        "relatime",
+        "user_id=0",
+        "group_id=0",
+        "allow_other"
+      ]
+    },
+    "/vagrant": {
+      "mount": "/vagrant",
+      "fs_type": "vboxsf",
+      "mount_options": [
+        "rw",
+        "nodev",
+        "relatime",
+        "iocharset=utf8",
+        "uid=1000",
+        "gid=1000"
+      ]
+    },
+    "/dev/sda1": {
+      "fs_type": "LVM2_member",
+      "uuid": "t2mdkA-YYUs-YGO6-LDxu-I8rk-DdPc-dWScXR"
+    },
+    "/dev/mapper/vagrant--vg-swap_1": {
+      "fs_type": "swap",
+      "uuid": "f22638ad-4e42-48f2-8895-2d31935ef112"
+    }
+  },
+
+</pre>
+
+## Windows 
+<pre>
+ "filesystem": {
+    "C:": {
+      "kb_size": 62545457,
+      "kb_available": 42937565,
+      "kb_used": 19607892,
+      "percent_used": 31,
+      "mount": "C:",
+      "fs_type": "ntfs",
+      "volume_name": "windows 2016"
+    }
+  },
+</pre>
 
 
 ## Shorted sections
