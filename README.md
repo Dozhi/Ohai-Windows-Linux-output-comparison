@@ -149,7 +149,7 @@
     "machine": "x86_64",
     "processor": "x86_64",
     "os": "GNU/Linux",
-    "[modules](#ubuntumodules)": { ...
+    ["modules"](#ubuntumodules): { ...
     }
   }
   
